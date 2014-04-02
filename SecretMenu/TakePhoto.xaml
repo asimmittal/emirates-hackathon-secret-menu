@@ -1,0 +1,65 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="SecretMenu.TakePhoto"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="True">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="White">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <StackPanel Margin="20">        
+            <ContentControl Margin="20,0,0,0" Content="What are you eating?" HorizontalContentAlignment="Left" Foreground="Black" FontSize="24"/>
+            <TextBox Background="#BFEDEDED" Name="txtName" GotFocus="txtName_GotFocus"/>
+            <Grid Background="#BFEDEDED" Margin="30,10,30,30">
+                <Image Source="Assets/mypic.jpg" Margin="10" Height="350"/>
+                <StackPanel Height="90" Background="#ffEDEDED" VerticalAlignment="Bottom" Opacity="1">
+                    <TextBlock Text="Gelatario" Foreground="Black" Margin="15,10,0,0" FontSize="26" FontWeight="Bold"/>
+                    <TextBlock Text="102 Hagia Sofia Rd, Istanbul" Foreground="Black" Margin="15,0,0,0" FontSize="20"/>
+                </StackPanel>
+            </Grid>
+            <ContentControl Margin="20,0,0,0" Content="I paid... " HorizontalContentAlignment="Left" Foreground="Black" Name="txtValue" FontSize="24"/>
+            <Slider Minimum="0" Maximum="30" Value="10" ValueChanged="Slider_ValueChanged" Name="slider" Margin="10,-10"/>
+            <StackPanel Orientation="Horizontal" Margin="5,-30">
+                <CheckBox Content="Kosher" Foreground="Black" BorderBrush="LightGray" Tap="CheckBox_Tap" Background="LightGray" Name="chkKosher"/>
+                <CheckBox Content="Veg" Foreground="Black" BorderBrush="LightGray" Tap="CheckBox_Tap" Background="LightGray" Name="chkVeg"/>
+                <CheckBox Content="Gluten free" Foreground="Black" BorderBrush="LightGray" Tap="CheckBox_Tap" Background="LightGray" Name="chkGluten"/>
+            </StackPanel>
+            <Button Content="ADD TO MY SECRET MENU" Foreground="WHITE" Background="Green" Margin="10,30" Click="Button_Click"/>
+        </StackPanel>
+    </Grid>
+
+    <toolkit:TransitionService.NavigationInTransition>
+        <toolkit:NavigationInTransition>
+            <toolkit:NavigationInTransition.Backward>
+                <toolkit:TurnstileTransition Mode="BackwardIn" />
+            </toolkit:NavigationInTransition.Backward>
+            <toolkit:NavigationInTransition.Forward>
+                <toolkit:TurnstileTransition Mode="ForwardIn" />
+            </toolkit:NavigationInTransition.Forward>
+        </toolkit:NavigationInTransition>
+    </toolkit:TransitionService.NavigationInTransition>
+    <toolkit:TransitionService.NavigationOutTransition>
+        <toolkit:NavigationOutTransition>
+            <toolkit:NavigationOutTransition.Backward>
+                <toolkit:TurnstileTransition Mode="BackwardOut" />
+            </toolkit:NavigationOutTransition.Backward>
+            <toolkit:NavigationOutTransition.Forward>
+                <toolkit:TurnstileTransition Mode="ForwardOut" />
+            </toolkit:NavigationOutTransition.Forward>
+        </toolkit:NavigationOutTransition>
+    </toolkit:TransitionService.NavigationOutTransition>
+
+</phone:PhoneApplicationPage>
