@@ -1,0 +1,120 @@
+[
+	{
+		"name":"Kelsey Lee",
+		"id":"365e527a-1f2f-11e3-b06b-542696d303b7",
+		"city":"New York City, NY",
+		"picture":"kelsey.jpg"
+	},
+
+	{
+		"name":"Atia Naim",
+		"id":"39997805-1f2f-11e3-aa2a-542696d303b7",
+		"city":"Mountain View, CA",
+		"picture":"atia.jpg"
+	},
+
+	{
+		"name":"Benjamin Nimmons",
+		"id":"d150cceb-1f2f-11e3-b5b3-542696d303b7",
+		"city":"Seattle, WA",
+		"picture":"ben.jpg"
+	},
+
+	{
+		"name":"Christian Strommen",
+		"id":"2974ea51-1f30-11e3-b1a6-542696d303b7",
+		"city":"Alesund, Norway",
+		"picture":"christian.jpg"
+	},
+
+	{
+		"name":"Jeffrey Paul",
+		"id":"433815f3-1f30-11e3-b92f-542696d303b7",
+		"city":"Cambridge, MA",
+		"picture":"jeff.jpg"
+	},
+
+	{
+		"name":"Justin Kuk",
+		"id":"64ddba23-1f30-11e3-a0a7-542696d303b7",
+		"city":"San Diego, CA",
+		"picture":"justin.jpg"
+	},
+
+	{
+		"name":"Nick Inzucchi",
+		"id":"8be6c002-1f30-11e3-89a5-542696d303b7",
+		"city":"Chicago, IL",
+		"picture":"nick.jpg"
+	},
+
+	{
+		"name":"Rebecca Gulotta",
+		"id":"a8e28e0a-1f30-11e3-939d-542696d303b7",
+		"city":"Pittsburgh, PA",
+		"picture":"rebecca.jpg"
+	},
+
+	{
+		"name":"Russell Essary",
+		"id":"cc58a7f3-1f30-11e3-801d-542696d303b7",
+		"city":"Los Angeles, CA",
+		"picture":"russ.jpg"
+	},
+
+	{
+		"name":"Udit Goyal",
+		"id":"e4ff05d1-1f30-11e3-9289-542696d303b7",
+		"city":"San Diego, CA",
+		"picture":"udit.jpg"
+	},
+
+	{
+		"name":"Brittany Hamtil",
+		"id":"db145fe3-1f31-11e3-a60e-542696d303b7",
+		"city":"Boston, MA",
+		"picture":"brittany.jpg"
+	},
+
+	{
+		"name":"Aman Verma",
+		"id":"0477340f-1f32-11e3-aa50-542696d303b7",
+		"city":"Seattle, WA",
+		"picture":"aman.jpg"
+	},
+
+	{
+		"name":"Mahvish Nagda",
+		"id":"24cb4935-1f32-11e3-99c7-542696d303b7",
+		"city":"Mountain View, CA",
+		"picture":"mahvish.jpg"
+	},
+
+	{
+		"name":"Hamish Patel",
+		"id":"42cf4b63-1f32-11e3-8c0e-542696d303b7",
+		"city":"Ahmedabad, India",
+		"picture":"hamish.jpg"
+	},
+
+	{
+		"name":"Suhail Bhandari",
+		"id":"69a55880-1f32-11e3-89f1-542696d303b7",
+		"city":"Mumbai, India",
+		"picture":"suhail.jpg"
+	},
+
+	{
+		"name":"Emily Sappington",
+		"id":"8e453c0a-1f32-11e3-b9e5-542696d303b7",
+		"city":"Seattle, WA",
+		"picture":"emily.jpg"
+	},
+
+	{
+		"name":"Sharan Nambiar",
+		"id":"9b941782-1f32-11e3-9e13-542696d303b7",
+		"city":"Brisbane, Australia",
+		"picture":"sharan.jpg"
+	}
+]
